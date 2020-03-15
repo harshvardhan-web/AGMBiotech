@@ -1,0 +1,114 @@
+.topbar, footer{
+  text-align: center;
+  background-color: #F7B14E;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.navbar{
+  height: 5rem;
+  font-size: 1.3rem;
+}
+.navbar-brand{
+  font-size: 1.3rem;
+}
+h2{
+  color: black;
+}
+h4{
+  color: white;
+}
+
+/*bring navbar menu to the right*/
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.pattern{
+  display: flex;
+  flex-direction: row;
+  color: grey;
+}
+.product-range .pattern{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.pattern-contd{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+  max-width: 746px;
+}
+.pattern-contd button{
+  max-width: 30%;
+  position: relative;
+  left: 35%;
+}
+.about-us, .product-range, .why-us{
+  margin: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.about-us h2{
+  padding-bottom: 10px;
+  text-align: center;
+}
+.product-range .pattern img{
+  width: auto;
+  height: 390px;
+  position: absolute;
+  left: 14%;
+}
+.why-us .pattern img{
+  height: 375px;
+  width: 450px;
+  position: relative;
+  left: 3%;
+}
+
+.bottom-bar{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+}
+
+.about, .quick-links, .get-in-touch{
+  width: 33.33%;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: grey;
+}
+.quick-links{
+  display: flex;
+  flex-direction: column;
+}
+.quick-links a{
+  border-width: 2px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: center;
+  color: grey;
+}
+.quick-links a:hover{
+  background-color: red;
+  color: white;
+}
+footer{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+body{
+  background-color: #F4FBFB;
+}
