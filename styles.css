@@ -139,10 +139,6 @@ body{
   .why-us h2{text-align: center;}
 }
 
-@media screen and (min-width:1441px) {
-  body{margin: 7%;}
-}
-
 @media screen and (min-width:1600px) {
   body{margin: 10%;}
 }
