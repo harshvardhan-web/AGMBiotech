@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us-AGM Biotech Pvt. Ltd.</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        AGM Biotech Pvt. Ltd.
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="address">
+      <img src="images/head-icon.png">
+      <div class="head-office">
+        <h3>Head Office Address:</h3>
+        <ul>
+          <li>MIG-181 Avas Vikas Colony</li>
+          <li>Near Bank of Baroda</li>
+          <li>Rudrapur, Uttarakhand</li>
+        </ul>
+      </div>
+      <img src="images/admin-icon.png" alt="">
+      <div class="admin-office">
+        <h3>Administrator Office:</h3>
+        <ul>
+          <li>425, Galaxy Mall</li>
+          <li>Near BRTS Bus stop</li>
+          <li>Ahemadabad, Gujrat</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="partition">
+      <img src="images/partition.png">
+    </div>
+
+    <h3 style="margin-top: 3%;">For queries fill out this form</h3>
+    <form class="query-form" action="form.php" method="post">
+      <label><b>Name:</b></label><br>
+      <input type="text" name="name" placeholder="John Watson"><br>
+      <label><b>Your e-Mail:</b></label><br>
+      <input type="email" name="sender"><br>
+      <label><b>Subject:</b></label><br>
+      <select class="subject" name="subject" value="----Select----">
+        <option value="select">----SELECT----</option>
+        <option value="product-related">Product related query</option>
+        <option value="distributorship">Distributorship related query</option>
+        <option value="job">Job related query</option>
+        <option value="manufacturing">Manufacturing related query</option>
+      </select><br>
+      <label><b>Message:</b></label><br>
+      <textarea name="message" rows="8" cols="50"></textarea><br>
+      <input type="submit" name="Submit" value="submit">
+    </form>
+
+    <div class="bottom-bar">
+      <div class="about">
+        <h4>About Us</h4>
+        <p>AGM Biotech is a leading pharmaceutical company committed to providing the best quality Neuro-Psychiatry Products, Drugs, Range & Medicine in India. Our company is an ISO certified 3rd party manufacturing in India. We offer some of the
+          best
+          range of Psychiatry-related disease medicines and products.</p>
+      </div>
+      <div class="quick-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="products.html">Our Products</a>
+        <a href="#">Contact Information</a>
+      </div>
+      <div class="get-in-touch">
+        <h4>Get In Touch</h4>
+        <p>MIG-181
+          Avas Vikas Colony,
+          Haldwani, Uttarakhand
+        </p>
+        <span>Contact Us:<a href="tel: +919719588808">+91-9719588808</a></span><br>
+        <span>e-Mail:</span><a href="mailto:infoagmbiotec@gmail.com">infoagmbiotec@gmail.com</a>
+      </div>
+    </div>
+
+    <footer>© Copyright 2020. All rights reserved by AGM Biotech Pvt. Ltd.</footer>
+
+    <script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
